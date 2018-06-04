@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-mosquitto",
+  "version": "1.0.0",
+  "description": "MQTT Client using Mosquitto Broker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochimensi/mqtt-mosquitto.git"
+  },
+  "keywords": [
+    "MQTT",
+    "Client"
+  ],
+  "author": "Rosario Mensi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rochimensi/mqtt-mosquitto/issues"
+  },
+  "homepage": "https://github.com/rochimensi/mqtt-mosquitto#readme",
+  "dependencies": {
+    "mqtt": "^2.18.0",
+    "prompt": "^1.0.0"
+  }
+}
